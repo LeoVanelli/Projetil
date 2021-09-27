@@ -1,13 +1,35 @@
-# Insira aqui o nome do exercício
+# Projetil
 
-* 🖥️ Exercício: Insira aqui o nome da lista de atividades + nome do exercício
-* 🏫 Instituição: Insira aqui o nome da Instituição
-* ✨ Curso: Insira aqui o nome do Curso
-* 👨‍🏫 Orientador: Prof.: Insira aqui o nome do professor
-* 📖 Respositório dos exercícios: Se tiver, insira aqui o link da lista de exercícios
+* 🖥️ Exercício: Números e operadores (13) - Projetil
+* 🏫 Instituição: Etec Adolpho Berezin
+* ✨ Curso: Técnico em Informática
+* 👨‍🏫 Orientador: Prof.: Ermogenes & Prof.: Diego Neri
+* 📖 Respositório dos exercícios: https://github.com/ermogenes/aulas-programacao-csharp/blob/master/exercises/numeros-operadores.md
   
-## Enunciado
-  
-Insira aqui a descrição do exercício
+Um projétil é lançado em um ângulo `θ°` (teta graus) a uma velocidade inicial `v0 m/s`. Calcule, em metros, o alcance máximo `xmax` e a altura máxima atingida `hmax`.
 
-<h6 align="center">Made with by <a href="Link_do_seu_perfil_no_GitHub">Seu Nome</a></h6>
+Para isso, precisamos:
+
+1. Da constante `π` (pi) = 3,14159 radianos
+1. Da constante `g` = 9,80665 m/s²
+1. Converter o ângulo de graus para radianos, como no exemplo: 180° × π/180 = 3rad
+1. Aplicar a Equação de Torricelli para o alcance, e
+1. Aplicar a equação de Torricelli para a altura.
+
+![](https://github.com/ermogenes/aulas-logica-programacao/raw/master/exercises/lancamento_obliquo.png)
+
+Exemplo:
+
+```c
+-- Projétil --
+
+Entre com a velocidade, em m/s..: 30
+Entre com o ângulo, em graus....: 30
+
+Alcance........: 79,48 m
+Altura máxima..: 11,47 m
+```
+
+Ref.: [https://alunosonline.uol.com.br/fisica/lancamento-obliquo.html](https://alunosonline.uol.com.br/fisica/lancamento-obliquo.html)
+
+<h6 align="center">Made with by <a href="https://github.com/LeoVanelli">Leandro Vanelli</a></h6>
